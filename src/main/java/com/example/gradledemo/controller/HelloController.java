@@ -21,12 +21,12 @@ public class HelloController {
     // PUT
     @PutMapping("/hello")
     public String putHello(@RequestBody String message) {
-        return "PUT: Updated message to - " + message;
+        return "PUT: is  Updated message to - " + message;
     }
 
     // DELETE
     @DeleteMapping("/hello")
     public String deleteHello() {
-        return "DELETE: Resource deleted!";
+        return "DELETE:is  Resource deleted!";
     }
 }
